@@ -1,0 +1,43 @@
+.redes {
+  position: absolute;
+  position: fixed;
+  left: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.redes a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.redes a img {
+  width: 22px;
+  filter: invert(99%) sepia(31%) saturate(2%) hue-rotate(206deg) brightness(114%) contrast(100%);
+}
+
+.redes .facebook {
+  background: linear-gradient(45deg, #1877F2, #3b5998, #8b9dc3);
+}
+
+.redes .whatsapp {
+  background: linear-gradient(45deg, #25D366, #128C7E, #075E54);
+  border-radius: 0 10px 0 0; /* Solo redondea las esquinas superiores */
+}
+
+.redes .instagram {
+  background: linear-gradient(45deg, #833AB4, #FD1D1D, #F56040);
+  border-radius: 0 0 10px 0; /* Solo redondea las esquinas inferiores */
+}
+
+.redes a:hover {
+  width: 85px;
+}
