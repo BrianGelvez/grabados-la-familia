@@ -10,7 +10,7 @@ const Redes = () => {
       <a
         target='_blank'
         rel="noopener noreferrer"
-        className={`${styles.whatsapp} hover:animate-pulse animate-once`}
+        className={`${styles.whatsapp} animate-pulse animate-once`}
         href="https://github.com/BrianGelvez"
       >
         <Image src={whatsapp} alt="logo de whatsapp" />
