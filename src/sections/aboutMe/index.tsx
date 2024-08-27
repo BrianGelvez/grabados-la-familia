@@ -93,10 +93,10 @@ export default function AboutMe() {
             </div>
             <div className="">
               <h1 className="text-2xl text-brown-text">
-                Estamos ubicados en
+                Estamos ubicados en..
               </h1>
               <p className="text-1xl mb-7 text-brown-text">
-                La ciudad de Cosquin, provincia de Cordoba.
+                Colinas del Rey 493. Ciudad de Cosquin, provincia de Cordoba.
               </p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.4383650345203!2d-64.46792298730378!3d-31.20858237425136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d7964e313273d%3A0x27e486893596a353!2sColinas%20del%20Rey%20493%2C%20X5166%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1724703394622!5m2!1ses!2sar"

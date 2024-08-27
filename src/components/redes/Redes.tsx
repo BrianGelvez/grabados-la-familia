@@ -15,7 +15,7 @@ const Redes = () => {
       >
         <Image src={whatsapp} alt="logo de whatsapp" />
       </a>
-      <a
+      {/* <a
         target='_blank'
         rel="noopener noreferrer"
         className={`${styles.facebook} hover:animate-pulse animate-once`}
@@ -30,7 +30,7 @@ const Redes = () => {
         href="https://instagram.com/brian.gelvez?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
       >
         <Image src={instram} alt="logo de Instagram" />
-      </a>
+      </a> */}
     </article>
   );
 };
