@@ -12,7 +12,7 @@ export default function AboutMe() {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-transparent">
         <div className="absolute inset-0 bg-black/60 lg:bg-black/50 flex flex-col lg:flex-row gap-8 px-4 lg:py-12">
-          <div className="w-full lg:w-[50%] h-[800px] md:h-[500px] lg:h-[930px] xl:h-[750px] flex flex-col gap-2 lg:gap-8 border-[1px] border-[#343434] bg-gradient-to-tl backdrop-blur-sm p-4 rounded-lg">
+          <div className="w-full lg:w-[50%] h-auto md:h-[500px] lg:h-[930px] xl:h-[750px] flex flex-col gap-2 lg:gap-8 border-[1px] border-[#343434] bg-gradient-to-tl backdrop-blur-sm p-4 rounded-lg">
             <div className="lg:flex lg:flex-col lg:justify-center lg:items-start">
               <p className="text-xl lg:text-3xl text-gray-300 mb-4">
                 ¡Hola! Somos <span className="gradient-text">Luis y José</span>,
