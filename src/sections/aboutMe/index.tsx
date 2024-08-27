@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="relative flex flex-col h-[1600px] lg:h-screen">
+    <div className="relative flex flex-col h-[1600px] lg:h-[1000px]">
       <Image
         src="/fondoblack.webp"
         alt="Imagen de fondo de inicio para dispositivos móviles"
@@ -11,19 +11,19 @@ export default function AboutMe() {
         className=""
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-transparent">
-        <div className="absolute inset-0 bg-black/60 lg:bg-black/40 flex flex-col lg:flex-row gap-8 px-4 lg:py-12">
-          <div className="w-full lg:w-[50%] h-[750px] flex flex-col gap-2 lg:gap-8 border-[1px] border-[#343434] bg-gradient-to-tl backdrop-blur-sm p-4 rounded-lg">
+        <div className="absolute inset-0 bg-black/60 lg:bg-black/50 flex flex-col lg:flex-row gap-8 px-4 lg:py-12">
+          <div className="w-full lg:w-[50%] h-[800px] md:h-[500px] lg:h-[930px] xl:h-[750px] flex flex-col gap-2 lg:gap-8 border-[1px] border-[#343434] bg-gradient-to-tl backdrop-blur-sm p-4 rounded-lg">
             <div className="lg:flex lg:flex-col lg:justify-center lg:items-start">
-              <p className="text-xl text-gray-300 mb-4">
+              <p className="text-xl lg:text-3xl text-gray-300 mb-4">
                 ¡Hola! Somos <span className="gradient-text">Luis y José</span>,
                 de Cosquín, Córdoba.
               </p>
-              <p className="text-xl text-gray-300 mb-4">
+              <p className="text-xl lg:text-3xl text-gray-300 mb-4">
                 Somos un{" "}
                 <span className="gradient-text">emprendimiento familiar</span>{" "}
                 enfocado en crear productos únicos a través de grabados láser.
               </p>
-              <p className="text-xl text-gray-300 mb-4">
+              <p className="text-xl lg:text-3xl text-gray-300 mb-4">
                 Con{" "}
                 <span className="gradient-text">
                   mucha dedicación y entusiasmo
@@ -35,7 +35,7 @@ export default function AboutMe() {
                 Creemos en el valor de lo hecho a mano, la cercanía con nuestros
                 clientes y en crecer juntos, un grabado a la vez.
               </p>
-              <p className="text-lg text-gray-300">
+              <p className="text-lg lg:text-3xl text-gray-300">
                 Nuestro <span className="gradient-text">objetivo</span> es
                 brindarte productos personalizados que reflejen tus gustos y
                 emociones, creando algo especial para cada ocasión.
@@ -57,11 +57,11 @@ export default function AboutMe() {
             </div>
           </div>
 
-          <div className="w-full lg:w-[50%] h-[750px]">
+          <div className="w-full lg:w-[50%] h-[800px]">
             <div className="mt-12 flex flex-col">
               <div className="flex flex-col">
                 <span className="flex flex-row justify-center items-center gap-2">
-                  <p className="text-brown-text text-[13px]">Producto más vendido</p>
+                  <p className="text-brown-text text-[13px] lg:text-lg">Producto más vendido</p>
                   <Image
                     src="/estrellas.webp"
                     alt="Icono de tres estrellas"
@@ -71,7 +71,7 @@ export default function AboutMe() {
                 </span>
                 <a
                   href="/#contacto"
-                  className="text-center py-2 px-4 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try text-white rounded-md"
+                  className="text-center lg:text-2xl py-2 px-4 lg:py-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try text-white lg:rounded-xl rounded-md"
                 >
                   Mates Personalizados 🧉
                 </a>
@@ -80,23 +80,23 @@ export default function AboutMe() {
             <div className="w-full flex flex-col gap-5 my-12">
               <a
                 href="/aboutMe"
-                className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg p-1 shadow-lg shadow-yellow-700/50"
+                className="text-center lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50"
               >
-                Conoce más productos
+                Conoce más productos 🖼️
               </a>
               <a
                 href="/services"
-                className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg p-1 shadow-lg shadow-yellow-700/50"
+                className="text-center lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50"
               >
-                Testimonios
+                Testimonios 💬
               </a>
             </div>
             <div className="">
-              <h1 className="text-2xl gradient-text">
-                Dirección Estudio Jurídico:
+              <h1 className="text-2xl text-brown-text">
+                Estamos ubicados en
               </h1>
-              <p className="text-xs mb-7">
-                Barrio Centro de la ciudad de Córdoba Capital.
+              <p className="text-1xl mb-7 text-brown-text">
+                La ciudad de Cosquin, provincia de Cordoba.
               </p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.4383650345203!2d-64.46792298730378!3d-31.20858237425136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d7964e313273d%3A0x27e486893596a353!2sColinas%20del%20Rey%20493%2C%20X5166%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1724703394622!5m2!1ses!2sar"
