@@ -13,10 +13,10 @@ export function ThreeDCard() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          <div className="w-full flex flex-row gap-14 items-center">
-            <p>Mates 100% Personalizados </p>
+          <div className="w-full flex flex-row  items-center">
+            <p className="gradient-text">Mates 100% Personalizados 🎨</p>
             <div>
-              <Image src="/estrella.webp" width={60} height={60} alt="firma" />
+              <Image src="/estrella.webp" width={100} height={100} alt="firma" />
             </div>
           </div>
         </CardItem>
@@ -25,7 +25,7 @@ export function ThreeDCard() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Personaliza tu idea como más te guste, ideal para un regalo 🎁
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -42,16 +42,16 @@ export function ThreeDCard() {
             as={Link}
             href="https://twitter.com/mannupaaji"
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className="rounded-xl text-lg font-normal dark:text-white"
           >
-            Try now →
+            $6.550
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] p-1 border-brown-secundary rounded-lg text-slate-300"
           >
-            Sign up
+            quiero mi mate 🧉
           </CardItem>
         </div>
       </CardBody>
