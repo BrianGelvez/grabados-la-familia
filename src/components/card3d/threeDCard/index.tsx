@@ -22,13 +22,13 @@ export function ThreeDCard({
 }: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-yellow-900/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-76 h-auto rounded-xl p-6 border">
+      <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-yellow-900/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-76 h-auto rounded-xl p-6 border">
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 dark:text-white"
+          className="text-2xl font-bold text-neutral-600 dark:text-white"
         >
           <div className="w-full flex flex-row gap-12 lg:gap-28 items-center">
-            <p className="gradient-text w-[200px]">{title}</p>
+            <p className="gradient-text w-[250px]">{title}</p>
             <div>
               <Image src="/estrella.webp" width={80} height={80} alt="firma" />
             </div>
@@ -37,7 +37,7 @@ export function ThreeDCard({
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
         >
           {description}
         </CardItem>

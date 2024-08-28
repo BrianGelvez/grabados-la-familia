@@ -59,8 +59,8 @@ export default function AboutMe() {
             </div>
           </div>
 
-          <div className="w-full lg:w-[50%] h-[800px]">
-            <div className="mt-12 flex flex-col">
+          <div className="w-full lg:w-[50%] h-[750px]">
+            <div className="mt-8 flex flex-col">
               <div className="flex flex-col">
                 <span className="flex flex-row justify-center items-center gap-2">
                   <p className="gradient-text text-[13px] lg:text-lg">
@@ -104,7 +104,7 @@ export default function AboutMe() {
               </p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.4383650345203!2d-64.46792298730378!3d-31.20858237425136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d7964e313273d%3A0x27e486893596a353!2sColinas%20del%20Rey%20493%2C%20X5166%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1724703394622!5m2!1ses!2sar"
-                className="w-full h-[305px] rounded-lg"
+                className="w-full h-[400px] lg:h-[328px] rounded-lg"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"

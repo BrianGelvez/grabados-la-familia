@@ -20,8 +20,8 @@ export default function Products() {
         className="hidden lg:block"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent">
-        <div className="absolute inset-0 bg-black/50 lg:bg-black/70 flex flex-col gap-8 px-4 lg:py-12">
-          <h1 className="text-center text-4xl font-semibold lg:text-center text-brown-secundary">
+        <div className="absolute inset-0 bg-black/50 lg:bg-black/70 flex flex-col px-4">
+          <h1 className="text-center text-4xl font-semibold lg:text-center text-brown-secundary ">
             productos 🖼️
           </h1>
           
