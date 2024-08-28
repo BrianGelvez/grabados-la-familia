@@ -5,16 +5,30 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../mouseEnterContext";
 import Link from "next/link";
 
-export function ThreeDCard() {
+interface ThreeDCardProps {
+  title: string;
+  description: string;
+  imageUrl: string;
+  price: string;
+  link: string;
+}
+
+export function ThreeDCard({
+  title,
+  description,
+  imageUrl,
+  price,
+  link,
+}: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-yellow-900/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+      <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-yellow-900/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-76 h-auto rounded-xl p-6 border">
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          <div className="w-full flex flex-row  items-center">
-            <p className="gradient-text">Mates 100% Personalizados 🎨</p>
+          <div className="w-full flex flex-row items-center">
+            <p className="gradient-text">{title}</p>
             <div>
               <Image src="/estrella.webp" width={100} height={100} alt="firma" />
             </div>
@@ -25,11 +39,11 @@ export function ThreeDCard() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Personaliza tu idea como más te guste, ideal para un regalo 🎁
+          {description}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="/mateslogo.webp"
+            src={imageUrl}
             height="500"
             width="500"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -40,11 +54,11 @@ export function ThreeDCard() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://twitter.com/mannupaaji"
+            href={link}
             target="__blank"
             className="rounded-xl text-lg font-normal dark:text-white"
           >
-            $6.550
+            {price}
           </CardItem>
           <CardItem
             translateZ={20}
