@@ -23,7 +23,8 @@ export default function Main() {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent">
         <div className="absolute inset-0 bg-black/60 lg:bg-black/40 flex flex-col xl:items-center">
-          <div className="w-full h-auto p-2 backdrop-blur-md bg-white/20 mt-[100px] lg:mt-[120px] flex justify-center items-center italic">
+          <div className="w-full h-auto p-2 backdrop-blur-md bg-white/20 mt-[100px] lg:mt-[120px] flex flex-col justify-center items-center italic">
+            {/* <p className="text-slate-200 underline">Ventas por mayor y menor</p> */}
             <p className="text-white text-xl lg:text-2xl xl:text-3xl">
               📦Envio{" "}
               <span className="text-brown-secundary font-semibold">gratis</span>{" "}
@@ -45,7 +46,8 @@ export default function Main() {
                   Grabados La Familia
                 </h1>
                 <h2 className="text-xl mt-2 lg:text-2xl mx-0 text-brown-secundary italic">
-                  Cortes y Grabados Láser <br /> {/* Esto añade un salto de línea */}
+                  Cortes y Grabados Láser <br />{" "}
+                  {/* Esto añade un salto de línea */}
                   <span className="inline-block">
                     de Calidad{" "}
                     <Image
