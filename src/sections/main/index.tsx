@@ -41,20 +41,25 @@ export default function Main() {
               <div className="flex flex-col max-w-[70%]">
                 {" "}
                 {/* Limita el ancho máximo del contenedor de texto */}
-                <h1 className="text-brown-secundary text-5xl font-semibold lg:text-6xl italic">
+                <h1 className="gradient-text text-5xl font-semibold lg:text-6xl italic">
                   Grabados La Familia
                 </h1>
                 <h2 className="text-xl mt-2 lg:text-2xl mx-0 text-brown-secundary italic">
-                  Cortes y Grabados Láser de Calidad{" "}
-                  <Image
-                    src="/rayolaser.webp"
-                    width={30}
-                    height={30}
-                    alt="Imagen de un rayo láser"
-                    className="inline-block"
-                  />
+                  Cortes y Grabados Láser <br /> {/* Esto añade un salto de línea */}
+                  <span className="inline-block">
+                    de Calidad{" "}
+                    <Image
+                      src="/rayolaser.webp"
+                      width={30}
+                      height={30}
+                      alt="Imagen de un rayo láser"
+                      className="inline-block"
+                    />
+                  </span>
                 </h2>
-                <h3 className="text-brown-secundary italic mt-1">diseños 100% personalizados</h3>
+                <h3 className="text-brown-secundary italic mt-1">
+                  diseños 100% personalizados
+                </h3>
               </div>
               <div className="flex-shrink-0 mt-3">
                 {" "}
