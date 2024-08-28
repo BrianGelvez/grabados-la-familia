@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Products() {
   return (
-    <div className="relative flex flex-col h-[1600px] lg:h-[1000px]">
+    <div className="relative flex flex-col h-[1600px] lg:h-[1200px]">
       <Image
         src="/fondoizquierdo.webp"
         alt="Imagen de fondo de inicio para dispositivos móviles"
@@ -37,23 +37,26 @@ export default function Products() {
               Ventas por{" "}
               <span className="text-brown-secundary font-semibold">Mayor</span>{" "}
               y{" "}
-              <span className="text-brown-secundary font-semibold">Menor</span> a
-              todo el pais!📦
+              <span className="text-brown-secundary font-semibold">Menor</span>{" "}
+              a todo el pais!📦
             </p>
           </div>
           {/* Contenedor de tarjetas con scroll horizontal en móviles */}
-          <div className="flex flex-row overflow-x-auto gap-4 xl:justify-center lg:gap-8 mt-8">
-            {dataCards.map((card) => (
-              <div className="flex-shrink-0 max-w-full" key={card.id}>
-                <ThreeDCard
-                  title={card.title}
-                  description={card.description}
-                  imageUrl={card.imageUrl}
-                  price={card.price}
-                  link={card.link}
-                />
-              </div>
-            ))}
+          <div className="flex flex-col">
+            <p className="text-white text-center mt-12 text-4xl">Productos 🛍️</p>
+            <div className="flex flex-row overflow-x-auto gap-4 xl:justify-center lg:gap-8 mt-8">
+              {dataCards.map((card) => (
+                <div className="flex-shrink-0 max-w-full" key={card.id}>
+                  <ThreeDCard
+                    title={card.title}
+                    description={card.description}
+                    imageUrl={card.imageUrl}
+                    price={card.price}
+                    link={card.link}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

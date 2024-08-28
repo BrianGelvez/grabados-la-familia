@@ -2,7 +2,9 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="relative flex flex-col h-[1800px] min1:h-[1800px] min2:h-[1700px] min3:h-[1650px] sm:h-[1550px] md:h-[1450px] lg:h-[1100px] xl:h-[950px]">
+    <div className="relative flex flex-col h-[1800px] min1:h-[1800px] 
+              min2:h-[1700px] min3:h-[1650px] sm:h-[1550px] md:h-[1450px] 
+              lg:h-[1100px] xl:h-[950px]">
       <Image
         src="/fondoderecho.webp"
         alt="Imagen de fondo de inicio para dispositivos móviles"
