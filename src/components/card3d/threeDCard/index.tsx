@@ -27,10 +27,10 @@ export function ThreeDCard({
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          <div className="w-full flex flex-row gap-16 items-center">
+          <div className="w-full flex flex-row gap-12 lg:gap-28 items-center">
             <p className="gradient-text w-[200px]">{title}</p>
             <div>
-              <Image src="/estrella.webp" width={100} height={100} alt="firma" />
+              <Image src="/estrella.webp" width={80} height={80} alt="firma" />
             </div>
           </div>
         </CardItem>
@@ -63,7 +63,7 @@ export function ThreeDCard({
           <CardItem
             translateZ={20}
             as="button"
-            className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] p-1 border-brown-secundary rounded-lg text-slate-300"
+            className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] p-1 px-2 border-brown-secundary rounded-lg text-slate-300"
           >
             quiero mi mate 🧉
           </CardItem>
