@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="relative flex flex-col h-[1600px] lg:h-[1000px]">
+    <div className="relative flex flex-col h-[1800px] min1:h-[1800px] min2:h-[1700px] min3:h-[1650px] sm:h-[1550px] md:h-[1450px] lg:h-[1100px] xl:h-[950px]">
       <Image
         src="/fondoderecho.webp"
         alt="Imagen de fondo de inicio para dispositivos móviles"
@@ -18,7 +18,7 @@ export default function AboutMe() {
         className="hidden lg:block"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent">
-        <div className="absolute inset-0 bg-black/50 lg:bg-black/50 flex flex-col lg:flex-row gap-8 px-4 lg:py-12">
+        <div className="absolute bg-black/50 lg:bg-black/50 flex flex-col lg:flex-row gap-8 px-4 lg:py-12">
           <div className="w-full lg:w-[50%] h-auto md:h-[500px] lg:h-[930px] xl:h-[750px] flex flex-col gap-2 lg:gap-8 border-[1px] border-[#343434] bg-gradient-to-tl backdrop-blur-sm p-4 rounded-lg">
             <div className="lg:flex lg:flex-col lg:justify-center lg:items-start">
               <p className="text-xl lg:text-3xl text-gray-300 mb-4">
@@ -104,7 +104,7 @@ export default function AboutMe() {
               </p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.4383650345203!2d-64.46792298730378!3d-31.20858237425136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d7964e313273d%3A0x27e486893596a353!2sColinas%20del%20Rey%20493%2C%20X5166%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1724703394622!5m2!1ses!2sar"
-                className="w-full h-[400px] lg:h-[328px] rounded-lg"
+                className="w-full h-[500px] lg:h-[328px] rounded-lg"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"

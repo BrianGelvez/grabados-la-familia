@@ -10,6 +10,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'min1': '400px',
+        'min2': '429px',
+        'min3': '500px',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
