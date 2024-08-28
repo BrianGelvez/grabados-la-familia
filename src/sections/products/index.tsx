@@ -1,5 +1,5 @@
 import { dataCards } from "@/components/card3d/dataCards";
-import { ThreeDCard } from "@/components/card3d/ThreeDCard";
+import { ThreeDCard } from "@/components/card3d/threeDCard"; 
 import Image from "next/image";
 
 export default function Products() {
