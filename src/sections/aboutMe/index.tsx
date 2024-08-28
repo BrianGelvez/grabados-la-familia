@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="relative flex flex-col h-[1600px] lg:h-[1000px]">
       <Image
-        src="/fondoblack.webp"
+        src="/fondoderecho.webp"
         alt="Imagen de fondo de inicio para dispositivos móviles"
         layout="fill"
         objectFit=""
