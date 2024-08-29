@@ -27,7 +27,7 @@ export function ThreeDCard({
           translateZ="50"
           className="text-2xl font-bold text-neutral-600 dark:text-white"
         >
-          <div className="w-full flex flex-row gap-12 lg:gap-28 items-center">
+          <div className="w-full flex flex-row min1:gap-12 lg:gap-28 items-center">
             <p className="gradient-text w-[250px]">{title}</p>
             <div>
               <Image src="/estrella.webp" width={80} height={80} alt="firma" />

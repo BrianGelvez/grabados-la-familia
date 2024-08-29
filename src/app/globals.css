@@ -36,6 +36,10 @@ body {
   background: #ffffff;
 }
 
+iframe {
+  max-height: none !important;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

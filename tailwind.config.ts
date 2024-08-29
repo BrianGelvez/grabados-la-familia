@@ -11,9 +11,11 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        'min1': '400px',
-        'min2': '429px',
-        'min3': '500px',
+        min0: "300px",
+        min1: "400px",
+        min2: "470px",
+        min3: "540px",
+        min4: "620px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -22,18 +24,18 @@ const config: Config = {
       },
       colors: colorsDefault,
       boxShadow: {
-        full: "0 3px 5px rgba(0, 0, 0, 0.15), 0 -3px 5px rgba(0, 0, 0, 0.1), 3px 0 5px rgba(0, 0, 0, 0.1), -3px 0 5px rgba(0, 0, 0, 0.1)",
+        full: "0 4px 8px rgba(0, 0, 0, 0.25), 0 -4px 8px rgba(0, 0, 0, 0.2), 4px 0 8px rgba(0, 0, 0, 0.2), -4px 0 8px rgba(0, 0, 0, 0.2)",
         light:
           "0 1px 3px rgba(0, 0, 0, 0.1), 0 -1px 3px rgba(0, 0, 0, 0.05), 1px 0 3px rgba(0, 0, 0, 0.05), -1px 0 3px rgba(0, 0, 0, 0.05)",
       },
       margin: {
-        "top-layout": "110px"
+        "top-layout": "110px",
       },
       width: {
-        "container":"calc(100% - 200px)"
-      }
+        container: "calc(100% - 200px)",
+      },
     },
   },
-  plugins: [require('tailwind-hamburgers')],
+  plugins: [require("tailwind-hamburgers")],
 };
 export default config;
