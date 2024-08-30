@@ -24,28 +24,28 @@ export default function Testimonies() {
       />
       <div className="w-full absolute inset-0 bg-gradient-to-t bg-black/30 via-transparent to-transparent">
         <div className="w-full absolute flex flex-col lg:flex-row  px-4 lg:py-12 xl:justify-center">
-          <div className="w-full xl:w-container flex flex-col gap-12 justify-center">
-            <p className="text-white text-center mt-12 text-4xl lg:text-6xl">
+          <div className="w-full xl:w-container flex flex-col justify-center">
+            <p className="text-white text-center mt-12 mb-5 text-4xl lg:text-6xl">
               Testimonios 🗣️
             </p>
             <div className="">
               <h3 className="gradient-text text-center text-xl lg:text-3xl mb-4">
                 Capturas de clientes ✨
               </h3>
-              <div className="w-full pb-7 flex flex-row md:justify-center gap-4 lg:gap-10 overflow-x-auto">
+              <div className="w-full flex flex-row md:justify-center gap-4 lg:gap-10 overflow-x-auto py-12">
                 <Image
                   src="/testimonie1.webp"
                   width={300}
                   height={300}
                   alt="testimonios"
-                  className="rounded-xl border-[1px] border-brown-primary shadow-full transition-transform duration-[300ms] ease-in-out hover:scale-90"
+                  className="rounded-xl border-[1px] border-brown-primary shadow-full transition-transform duration-[300ms] ease-in-out hover:scale-110"
                 />
                 <Image
                   src="/testimonie2.webp"
                   width={300}
                   height={300}
                   alt="testimonios"
-                  className="rounded-xl border-[1px] border-brown-primary shadow-full transition-transform duration-[300ms] ease-in-out hover:scale-90"
+                  className="rounded-xl border-[1px] border-brown-primary shadow-full transition-transform duration-[300ms] ease-in-out hover:scale-110"
                 />
               </div>
             </div>
