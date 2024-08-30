@@ -25,7 +25,7 @@ export default function AboutMe() {
         <div className="absolute flex flex-col lg:flex-row  px-4 lg:py-12 xl:justify-center">
           <div className="w-full xl:w-container flex flex-col lg:flex-row gap-8 justify-center">
             <div className="w-full lg:w-[50%] h-auto flex flex-col gap-2 lg:gap-8 border-[1px]
-                      shadow-full border-[#343434] bg-gradient-to-tl backdrop-blur-sm p-4 rounded-lg">
+                      shadow-full border-[#343434] backdrop-blur-sm p-4 rounded-lg">
               <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
                 <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center">
                   ¡Hola! Somos <span className="text-brown-primary">Luis</span>{" "}
