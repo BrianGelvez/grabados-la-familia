@@ -32,7 +32,7 @@ export default function Testimonies() {
               <h3 className="gradient-text text-center text-xl mb-4">
                 Capturas de clientes ✨
               </h3>
-              <div className="w-full pb-7 flex flex-row min2:justify-start min3:justify-center gap-4 lg:gap-10 overflow-x-auto">
+              <div className="w-full pb-7 flex flex-row md:justify-center gap-4 lg:gap-10 overflow-x-auto">
                 <Image
                   src="/testimonie1.webp"
                   width={300}
