@@ -37,7 +37,7 @@ export default function Characteristics() {
               className="relative w-full lg:w-[50%] h-auto flex flex-col gap-2 lg:gap-8 border-[1px]
             shadow-full border-[#343434] backdrop-blur-sm p-4 rounded-lg
             bg-[url('/mateqatar.webp')] bg-cover bg-center bg-no-repeat 
-            bg-black/70 bg-blend-overlay"
+            bg-black/60 bg-blend-overlay"
             >
               <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
                 <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center">

@@ -57,9 +57,9 @@ export default function Testimonies() {
                 >
                   <div className="h-20 bg-gradient-to-r rounded-t-xl from-brown-try to-brown-primary relative">
                     {/* Punto titilante */}
-                    <span className="absolute top-2 right-2 flex h-3 w-3">
+                    <span className="absolute top-2 right-2 flex h-5 w-5">
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                      <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                      <span className="relative inline-flex rounded-full h-5 w-5 bg-green-500"></span>
                     </span>
                     <div className="w-32 h-32 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-brown-secundary shadow-lg overflow-hidden">
                       <Image
