@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { BsFillHouseHeartFill } from "react-icons/bs";
 import { FaArrowDown } from "react-icons/fa";
-import { GiLaserWarning } from "react-icons/gi";
 
 export default function Main() {
   return (
@@ -67,7 +67,7 @@ export default function Main() {
               <div className="flex-shrink-0 mt-3">
                 {" "}
                 {/* Evita que la imagen se reduzca si el espacio es limitado */}
-                <GiLaserWarning size={100} className="text-brown-secundary"/>
+                <BsFillHouseHeartFill  size={80} className="text-brown-secundary"/>
               </div>
             </div>
           </div>
