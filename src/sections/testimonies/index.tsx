@@ -25,11 +25,11 @@ export default function Testimonies() {
       <div className="w-full absolute inset-0 bg-gradient-to-t bg-black/30 via-transparent to-transparent">
         <div className="w-full absolute flex flex-col lg:flex-row  px-4 lg:py-12 xl:justify-center">
           <div className="w-full xl:w-container flex flex-col gap-12 justify-center">
-            <p className="text-white text-center mt-12 text-4xl">
+            <p className="text-white text-center mt-12 text-4xl lg:text-6xl">
               Testimonios 🗣️
             </p>
             <div className="">
-              <h3 className="gradient-text text-center text-xl mb-4">
+              <h3 className="gradient-text text-center text-xl lg:text-3xl mb-4">
                 Capturas de clientes ✨
               </h3>
               <div className="w-full pb-7 flex flex-row md:justify-center gap-4 lg:gap-10 overflow-x-auto">
@@ -49,7 +49,7 @@ export default function Testimonies() {
                 />
               </div>
             </div>
-            <div className="w-full flex flex-row lg:justify-center gap-6 overflow-x-auto px-[2px]">
+            <div className="w-full flex flex-row xl:justify-center gap-6 overflow-x-auto px-[2px]">
               {testimoniesData.map((data) => (
                 <div
                   key={data.id}

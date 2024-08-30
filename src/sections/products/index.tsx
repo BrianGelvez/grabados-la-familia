@@ -29,7 +29,7 @@ export default function Products() {
             <h1 className="text-center text-4xl font-semibold lg:text-center text-brown-primary">
               ¿Buscas el regalo perfecto que combine estilo y funcionalidad?
             </h1>
-            <p className="text-center text-lg lg:text-xl text-white mt-4">
+            <p className="text-center text-lg lg:text-2xl text-white mt-4">
               Nuestros productos personalizados no solo hacen que cada ocasión
               sea especial, sino que también resuelven el problema de encontrar
               regalos únicos y memorables. Desde mates y cuchillos hasta
@@ -37,7 +37,7 @@ export default function Products() {
               personalizados exactamente a tu gusto, haciendo que tu regalo sea
               inolvidable y verdaderamente personal.
             </p>
-            <div className="w-full h-auto p-2 backdrop-blur-md bg-white/20 mt-12 lg:mt-[120px] flex flex-col justify-center items-center italic rounded-lg">
+            <div className="w-full h-auto p-2 backdrop-blur-md bg-white/20 mt-12 flex flex-col justify-center items-center italic rounded-lg">
               <p className="text-white text-xl text-center lg:text-2xl xl:text-3xl">
                 Ventas por{" "}
                 <span className="text-brown-secundary font-semibold">
@@ -52,7 +52,7 @@ export default function Products() {
             </div>
             {/* Contenedor de tarjetas con scroll horizontal en móviles */}
             <div className="flex flex-col">
-              <p className="text-white text-center mt-12 text-4xl">
+              <p className="text-white text-center mt-12 text-4xl lg:text-6xl">
                 Productos 🛍️
               </p>
               <div className="flex flex-row overflow-x-auto gap-4 justify-start lg:gap-8 mt-8">
