@@ -7,6 +7,7 @@ import Link from "next/link";
 
 interface ThreeDCardProps {
   title: string;
+  image: string;
   description: string;
   imageUrl: string;
   price: string;
@@ -15,6 +16,7 @@ interface ThreeDCardProps {
 
 export function ThreeDCard({
   title,
+  image,
   description,
   imageUrl,
   price,
@@ -30,7 +32,7 @@ export function ThreeDCard({
           <div className="w-full flex flex-row min1:gap-12 lg:gap-28 items-center">
             <p className="gradient-text w-[250px]">{title}</p>
             <div>
-              <Image src="/estrella.webp" width={80} height={80} alt="firma" />
+              <Image src={image} width={80} height={80} alt="firma" />
             </div>
           </div>
         </CardItem>

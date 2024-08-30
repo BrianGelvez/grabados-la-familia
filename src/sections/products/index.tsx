@@ -60,6 +60,7 @@ export default function Products() {
                   <div className="flex-shrink-0 max-w-full" key={card.id}>
                     <ThreeDCard
                       title={card.title}
+                      image={card.image}
                       description={card.description}
                       imageUrl={card.imageUrl}
                       price={card.price}

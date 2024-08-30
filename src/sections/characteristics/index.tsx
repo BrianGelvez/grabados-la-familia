@@ -6,9 +6,9 @@ import { ThreeDCard } from "@/components/card3d/threeDCard";
 export default function Characteristics() {
   return (
     <div
-      className="relative w-full flex flex-col h-[2100px] min1:h-[1900px] 
-              min2:h-[1800px] sm:h-[1270px] md:h-[1230px] 
-              lg:h-[1340px] xl:h-[1280px]"
+      className="relative w-full flex flex-col h-[2200px] min1:h-[1900px] 
+              min2:h-[1800px] min4:h-[1600px] sm:h-[1900px] md:h-[1450px] 
+              lg:h-[1600px] xl:h-[1400px]"
     >
       <Image
         src="/fondoizquierdo.webp"
@@ -73,15 +73,42 @@ export default function Characteristics() {
               ))}
             </div>
           </div>
+          <div className="w-full flex flex-col lg:flex-row lg:gap-12">
+            <div className="w-full lg:w-[50%]">
+              <ThreeDCard
+                title="¡Personaliza tus productos con magia! 🪄"
+                image="/magia.webp"
+                description="¿Tienes un objeto especial que quieres personalizar? Trae tus propios materiales y grábalo como desees."
+                imageUrl="/personalizados.webp"
+                price=""
+                link="aqui"
+              />
+            </div>
+            <div className="w-full flex flex-col justify-evenly lg:w-[50%] lg:py-14">
+              <div
+                className="text-center lg:h-36 lg:text-3xl lg:flex justify-center items-center w-full font-extralight text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
+                     border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50 animate-bounce cursor-pointer"
+              >
+                <a href="/services" className="">
+                  🪄 Tengo productos para personalizar 🪄
+                </a>
+              </div>
 
-          <div>
-            <ThreeDCard
-              title="Personaliza tus propios objetos"
-              description="haz click aqui para contarnos que productos tienes para grabar"
-              imageUrl="/mateqatar.webp"
-              price=""
-              link="aqui"
-            />
+              {/* <a
+                href="/services"
+                className="text-center lg:text-xl w-full font-extralight text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
+                     border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50"
+              >
+                Testimonios 💬
+              </a>
+              <a
+                href="/services"
+                className="text-center lg:text-xl w-full font-extralight text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
+                     border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50"
+              >
+                Testimonios 💬
+              </a> */}
+            </div>
           </div>
         </div>
       </div>

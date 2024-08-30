@@ -49,7 +49,7 @@ export default function Testimonies() {
                 />
               </div>
             </div>
-            <div className="w-full flex flex-row xl:justify-center gap-6 overflow-x-auto px-[2px]">
+            <div className="w-full flex flex-row lg:justify-center gap-6 overflow-x-auto px-[2px]">
               {testimoniesData.map((data) => (
                 <div
                   key={data.id}

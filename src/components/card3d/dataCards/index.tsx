@@ -2,6 +2,7 @@ export const dataCards = [
   {
     id: 1,
     title: "Mates 100% Personalizados 🎨",
+    image: "/estrella.webp",
     description:
       "Personaliza tu idea como más te guste. Ideal para regalos especiales y únicos.",
     imageUrl: "/mateslogo.webp",
@@ -11,6 +12,7 @@ export const dataCards = [
   {
     id: 2,
     title: "Grabados por Mayor 📦",
+    image: "/estrella.webp",
     description:
       "Perfectos para souvenirs en eventos: bodas, cumpleaños y aniversarios.",
     imageUrl: "/matespormayor.webp",
@@ -20,6 +22,7 @@ export const dataCards = [
   {
     "id": 3,
     "title": "Bombillas 100% Personalizadas ✨",
+    image: "/estrella.webp",
     "description": "Elegantes bombillas personalizadas, perfectas para regalos únicos.",
     "imageUrl": "/bombillas.webp",
     "price": "$3.200",
@@ -28,6 +31,7 @@ export const dataCards = [
   {
     "id": 4,
     "title": "Cuchillos 100% Personalizados 🔪",
+    image: "/estrella.webp",
     "description": "Cuchillos únicos, ideales para regalos personalizados y especiales.",
     "imageUrl": "/cuchillos.webp",
     "price": "$6.550",
