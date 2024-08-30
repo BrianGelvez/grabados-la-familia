@@ -6,8 +6,8 @@ export default function Testimonies() {
   return (
     <div
       className="relative w-full flex flex-col h-[1700px] min1:h-[1650px] 
-                min2:h-[1600px] min3:h-[1500px] min4:h-[1400px] sm:h-[1380px] md:h-[1330px] 
-                lg:h-[1450px] xl:h-[1400px] 2xl:h-[1100px]"
+                min2:h-[1600px] min3:h-[1500px] min4:h-[1450px] sm:h-[1450px] md:h-[1450px] 
+                lg:h-[1550px] xl:h-[1500px]"
     >
       <Image
         src="/fondoderecho.webp"
@@ -32,7 +32,7 @@ export default function Testimonies() {
               <h3 className="gradient-text text-center text-xl mb-4">
                 Capturas de clientes ✨
               </h3>
-              <div className="w-full pb-7 flex flex-row lg:justify-center gap-4 lg:gap-10 overflow-x-auto">
+              <div className="w-full pb-7 flex flex-row min3:justify-center gap-4 lg:gap-10 overflow-x-auto">
                 <Image
                   src="/testimonie1.webp"
                   width={300}
