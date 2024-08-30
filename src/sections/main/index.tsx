@@ -85,7 +85,7 @@ export default function Main() {
 
         <div className="absolute bottom-0 w-full h-24 opacity-50 flex justify-center items-center">
           <Link href="#aboutme">
-            <FaArrowDown size={36} className="text-white" />
+            <FaArrowDown size={36} className="text-white animate-bounce" />
           </Link>
         </div>
       </div>

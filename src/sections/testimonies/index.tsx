@@ -53,7 +53,7 @@ export default function Testimonies() {
               {testimoniesData.map((data) => (
                 <div
                   key={data.id}
-                  className="snap-center flex-shrink-0 w-full max-w-[400px] mt-20 bg-white/10  border-[#343434] backdrop-blur-sm rounded-xl mb-6 shadow-full"
+                  className="snap-center flex-shrink-0 w-full max-w-[500px] mt-20 bg-white/10  border-[#343434] backdrop-blur-sm rounded-xl mb-6 shadow-full"
                 >
                   <div className="h-20 bg-gradient-to-r rounded-t-xl from-brown-try to-brown-primary relative">
                     {/* Punto titilante */}
