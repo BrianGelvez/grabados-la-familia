@@ -32,7 +32,7 @@ export default function Testimonies() {
               <h3 className="gradient-text text-center text-xl lg:text-3xl mb-4">
                 Capturas de clientes ✨
               </h3>
-              <div className="w-full flex flex-row md:justify-center gap-4 lg:gap-10 overflow-x-auto py-12">
+              <div className="w-full flex flex-row md:justify-center gap-10 overflow-x-auto py-12">
                 <Image
                   src="/testimonie1.webp"
                   width={300}
