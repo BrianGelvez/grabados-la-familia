@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowDown } from "react-icons/fa";
+import { GiLaserWarning } from "react-icons/gi";
 
 export default function Main() {
   return (
@@ -66,13 +67,7 @@ export default function Main() {
               <div className="flex-shrink-0 mt-3">
                 {" "}
                 {/* Evita que la imagen se reduzca si el espacio es limitado */}
-                <Image
-                  src="/laser.webp"
-                  width={70}
-                  height={70}
-                  alt="Imagen de una balanza, símbolo de justicia"
-                  className="lg:w-24"
-                />
+                <GiLaserWarning size={100} className="text-brown-secundary"/>
               </div>
             </div>
           </div>
