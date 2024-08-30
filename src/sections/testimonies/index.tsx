@@ -5,8 +5,8 @@ import { testimoniesData } from "./testimonies.data";
 export default function Testimonies() {
   return (
     <div
-      className="relative w-full flex flex-col h-[1700px] min1:h-[1650px] 
-                min2:h-[1600px] min3:h-[1500px] min4:h-[1450px] sm:h-[1450px] md:h-[1450px] 
+      className="relative w-full flex flex-col h-[1600px] min1:h-[1500px] 
+                min2:h-[1520px] min3:h-[1500px] min4:h-[1500px] sm:h-[1450px] md:h-[1500px] 
                 lg:h-[1550px] xl:h-[1500px]"
     >
       <Image

@@ -15,7 +15,7 @@ const config: Config = {
         min1: "400px",
         min2: "470px",
         min3: "540px",
-        min4: "620px",
+        min4: "641px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
