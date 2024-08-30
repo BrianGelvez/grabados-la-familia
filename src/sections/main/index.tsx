@@ -74,7 +74,7 @@ export default function Main() {
         </div>
         <div className="absolute transition-transform duration-300 bottom-28 w-full lg:w-full lg:flex lg:justify-center lg:items-center px-4 h-10">
           <button className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] border-brown-secundary w-full lg:w-auto lg:px-14 lg:py-3 h-auto p-2 rounded-lg text-white lg:text-3xl lg:flex lg:justify-center lg:items-center">
-            Quiero mi mate grabado🔥
+            Quiero mi personalizado🔥
           </button>
         </div>
 

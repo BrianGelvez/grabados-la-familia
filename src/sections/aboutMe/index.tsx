@@ -24,33 +24,43 @@ export default function AboutMe() {
       <div className="absolute inset-0 bg-gradient-to-t bg-black/30 via-transparent to-transparent">
         <div className="absolute flex flex-col lg:flex-row  px-4 lg:py-12 xl:justify-center">
           <div className="w-full xl:w-container flex flex-col lg:flex-row gap-8 justify-center">
-            <div className="w-full lg:w-[50%] h-auto flex flex-col gap-2 lg:gap-8 border-[1px]
-                      shadow-full border-[#343434] backdrop-blur-sm p-4 rounded-lg">
+            <div
+              className="w-full lg:w-[50%] h-auto flex flex-col gap-2 lg:gap-8 border-[1px]
+                      shadow-full border-[#343434] backdrop-blur-sm p-4 rounded-lg"
+            >
               <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
                 <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center">
                   ¡Hola! Somos <span className="text-brown-primary">Luis</span>{" "}
-                  y <span className="text-brown-primary">José</span> , de
+                  y <span className="text-brown-primary">José</span>, de
                   Cosquín, Córdoba.
                 </p>
                 <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center">
-                  Somos un emprendimiento familiar enfocado en crear productos
-                  únicos a través de grabados láser.
+                  Somos un emprendimiento familiar enfocado en crear{" "}
+                  <span className="text-brown-primary">productos únicos</span> a
+                  través de grabados láser.
                 </p>
                 <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center">
-                  Con mucha dedicación y entusiasmo , estamos dando nuestros
+                  Con mucha dedicación y entusiasmo, estamos dando nuestros
                   primeros pasos para ofrecerte artículos personalizados con
-                  calidad y creatividad.
+                  <span className="text-brown-primary">
+                    {" "}
+                    calidad y creatividad
+                  </span>
+                  .
                 </p>
                 <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center">
                   Creemos en el valor de lo hecho a mano, la cercanía con
-                  nuestros clientes y en crecer juntos, un grabado a la vez.
+                  nuestros clientes y en{" "}
+                  <span className="text-brown-primary">crecer juntos</span>, un
+                  grabado a la vez.
                 </p>
                 <p className="text-xl lg:text-3xl text-gray-300 text-center">
-                  Nuestro objetivo es brindarte productos personalizados que
+                  Nuestro objetivo es brindarte <span className="text-brown-primary">productos personalizados</span> que
                   reflejen tus gustos y emociones, creando algo especial para
                   cada ocasión.
                 </p>
               </div>
+
               <div className="w-auto flex flex-row justify-center gap-14 md:gap20 lg:gap-36 items-center">
                 <Image
                   src="/firma.webp"
