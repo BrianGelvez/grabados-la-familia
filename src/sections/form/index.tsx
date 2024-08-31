@@ -106,7 +106,7 @@ export default function Form() {
             id="name"
             name="name"
             required
-            className="border-[1px] p-2 shadow-full border-[#596363]  backdrop-blur-sm bg-black/50 rounded-lg"
+            className="border-[1px] p-2 shadow-full border-[#596363]  backdrop-blur-sm bg-black/50 rounded-lg text-slate-400"
           />
           <label
             htmlFor="phone"
@@ -119,7 +119,7 @@ export default function Form() {
             id="phone"
             name="phone"
             required
-            className="border-[1px] p-2 shadow-full border-[#596363] backdrop-blur-sm bg-black/50 rounded-lg"
+            className="border-[1px] p-2 shadow-full border-[#596363] backdrop-blur-sm bg-black/50 rounded-lg text-slate-400"
           />
           <label
             htmlFor="message"
@@ -131,20 +131,16 @@ export default function Form() {
             id="message"
             name="message"
             required
-            className="border-[1px] p-2 shadow-full border-[#596363] backdrop-blur-sm bg-black/50 rounded-lg h-32 resize-none"
+            className="border-[1px] p-2 shadow-full border-[#596363] backdrop-blur-sm bg-black/50 rounded-lg h-32 resize-none text-slate-400"
           />
-          <div
+
+          <button
+            type="submit"
             className="text-center lg:h-36 lg:text-2xl lg:flex justify-center items-center w-full text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
        border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50 cursor-pointer"
           >
-            <a
-              href="/services"
-              className="text-center flex items-center gap-2 justify-center lg:text-3xl"
-            >
-              ¡Empezar Mi Proyecto!
-              {/* <Sparkles size={30} color="#ffffff" strokeWidth={1} /> */}
-            </a>
-          </div>
+            ¡Empezar Mi Proyecto!
+          </button>
         </form>
       </div>
     </div>
