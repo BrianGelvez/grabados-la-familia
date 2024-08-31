@@ -10,14 +10,15 @@ export default function Footer() {
 
   return (
     <div className="relative w-full flex flex-col gap-7">
-      <Image
-        src="/fondofooter.webp"
-        alt="Fondo de la página de Diego Bustos, abogado penalista"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        className="absolute inset-0 z-[-1]"
-      />
+        <div className="absolute inset-0 z-[-1] overflow-hidden">
+        <video
+          src="/fondofooter1.mp4" // Reemplaza con la ruta a tu video
+          autoPlay
+          loop
+          muted
+          className="w-full h-full object-cover"
+        />
+      </div>
       <div className="absolute inset-0 opacity-0 z-[-1]"></div>
       {/* <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#111827] to-transparent z-[-1]"></div> */}
       <div className="w-full flex flex-col justify-center items-center py-3 gap-4 shadow-full backdrop-blur-md">
