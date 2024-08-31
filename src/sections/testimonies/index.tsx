@@ -19,16 +19,22 @@ export default function Testimonies() {
         src="/blackdesktop.webp"
         alt="Imagen de fondo de inicio para dispositivos móviles"
         layout="fill"
-        objectFit=""
         className="hidden lg:block"
       />
+
+      {/* Degradado superior */}
+      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-black to-transparent z-10"></div>
+
+      {/* Degradado inferior */}
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent z-10"></div>
+
       <div className="w-full absolute inset-0 bg-gradient-to-t bg-black/30 via-transparent to-transparent">
-        <div className="w-full absolute flex flex-col lg:flex-row  px-4 lg:py-12 xl:justify-center">
+        <div className="w-full absolute flex flex-col lg:flex-row px-4 lg:py-12 xl:justify-center">
           <div className="w-full xl:w-container flex flex-col justify-center">
             <p className="text-white text-center mt-12 mb-5 text-4xl lg:text-6xl">
               Testimonios 🗣️
             </p>
-            <div className="">
+            <div>
               <h3 className="gradient-text text-center text-xl lg:text-3xl mb-4">
                 Capturas de clientes ✨
               </h3>
@@ -53,7 +59,7 @@ export default function Testimonies() {
               {testimoniesData.map((data) => (
                 <div
                   key={data.id}
-                  className="snap-center flex-shrink-0 w-full max-w-[550px] mt-20 bg-white/10  border-[#343434] backdrop-blur-sm rounded-xl mb-6 shadow-full"
+                  className="snap-center flex-shrink-0 w-full max-w-[550px] mt-20 bg-white/10 border-[#343434] backdrop-blur-sm rounded-xl mb-6 shadow-full"
                 >
                   <div className="h-20 bg-gradient-to-r rounded-t-xl from-brown-try to-brown-primary relative">
                     {/* Punto titilante */}

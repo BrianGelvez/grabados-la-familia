@@ -48,7 +48,7 @@ export default function Faq() {
                       <span>
                         <BsChatText className="text-brown-try" size={30} />
                       </span>
-                      <p className="text-brown-text text-xl">{faq.questions}</p>
+                      <p className="text-slate-400 text-xl">{faq.questions}</p>
                     </div>
                   </label>
                   <input
