@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FcApproval } from "react-icons/fc";
 import { characteristicsData } from "./data.characteristics";
 import { ThreeDCard } from "@/components/card3d/threeDCard";
-import { Facebook, Instagram } from "lucide-react";
+import { Facebook, Instagram, Sparkles } from "lucide-react";
 
 export default function Characteristics() {
   return (
@@ -25,7 +25,7 @@ export default function Characteristics() {
         objectFit="cover"
         className="hidden lg:block"
       />
-      <div className="absolute inset-0 bg-gradient-to-t bg-black/30 via-transparent to-transparent">
+      <div className="absolute inset-0 bg-gradient-to-t bg-black/30 xl:bg-black/60 via-transparent to-transparent">
         <div className="w-full flex flex-col px-4 lg:py-12 justify-center">
           <h1 className="text-4xl text-center lg:text-center text-brown-primary">
             Dale un toque único a tus objetos favoritos
@@ -64,7 +64,7 @@ export default function Characteristics() {
                               border-[1px] border-brown-secundary rounded-lg shadow-lg p-2 gap-4"
                 >
                   <FcApproval size={40} className="flex-shrink-0" />
-                  <p className="text-white text-md font-medium">
+                  <p className="text-white text-md lg:text-lg font-medium">
                     <span className="font-bold text-brown-primary">
                       {data.keyword}
                     </span>{" "}
@@ -85,16 +85,7 @@ export default function Characteristics() {
                 link="aqui"
               />
             </div>
-            <div className="w-full flex flex-col justify-evenly lg:w-[50%] lg:py-14">
-              <div
-                className="text-center lg:h-36 lg:text-2xl lg:flex justify-center items-center w-full font-extralight text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
-                     border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50 animate-bounce cursor-pointer"
-              >
-                <a href="/services" className="">
-                  🪄 Tengo productos para personalizar 🪄
-                </a>
-              </div>
-
+            <div className="w-full flex flex-col justify-around lg:w-[50%] lg:py-14">
               <a
                 href="/services"
                 className="hidden lg:flex gap-2 justify-center text-center lg:text-xl w-full font-extralight text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
@@ -108,8 +99,21 @@ export default function Characteristics() {
                 className="hidden lg:flex gap-2 text-center justify-center lg:text-xl w-full font-extralight text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
                      border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50"
               >
-                Nuestro Facebook <Facebook size={30} color="#ffffff" strokeWidth={1} />
+                Nuestro Facebook{" "}
+                <Facebook size={30} color="#ffffff" strokeWidth={1} />
               </a>
+              <div
+                className="text-center lg:h-36 lg:text-2xl lg:flex justify-center items-center w-full text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
+       border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50 animate-bounce cursor-pointer"
+              >
+                <a
+                  href="/services"
+                  className="text-center flex items-center gap-2 justify-center lg:text-3xl"
+                >
+                  Personalizar mis productos{" "}
+                  <Sparkles size={30} color="#ffffff" strokeWidth={1} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
