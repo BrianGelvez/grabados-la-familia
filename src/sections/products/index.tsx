@@ -65,6 +65,7 @@ export default function Products() {
                       imageUrl={card.imageUrl}
                       price={card.price}
                       link={card.link}
+                      textbuttom={card.textbuttom}
                     />
                   </div>
                 ))}

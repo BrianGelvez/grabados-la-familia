@@ -41,10 +41,10 @@ export default function Faq() {
               {faqData.map((faq, index) => (
                 <div
                   key={index}
-                  className="w-full h-auto border flex flex-col rounded-xl backdrop-blur-sm bg-black/70"
+                  className="w-full h-auto border flex flex-col rounded-xl backdrop-blur-sm bg-black/70 cursor-pointer"
                 >
                   <label htmlFor={`faq-${index}`}>
-                    <div className="flex flex-row justify-start items-center gap-2 p-2 rounded-xl">
+                    <div className="flex flex-row justify-start items-center gap-2 p-2 rounded-xl cursor-pointer">
                       <span>
                         <BsChatText className="text-brown-try" size={30} />
                       </span>

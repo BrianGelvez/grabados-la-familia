@@ -3,7 +3,8 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../mouseEnterContext";
-import Link from "next/link";
+import { FaHeart, FaWhatsapp } from "react-icons/fa6";
+import { IoGift } from "react-icons/io5";
 
 interface ThreeDCardProps {
   title: string;
@@ -12,6 +13,7 @@ interface ThreeDCardProps {
   imageUrl: string;
   price: string;
   link: string;
+  textbuttom: string | undefined;
 }
 
 export function ThreeDCard({
@@ -21,10 +23,11 @@ export function ThreeDCard({
   imageUrl,
   price,
   link,
+  textbuttom,
 }: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-yellow-900/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-76 h-auto rounded-xl p-6 border">
+      <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-yellow-900/[0.9] bg-black/70 backdrop-blur-md dark:border-white/[0.2] border-black/[0.1] w-76 h-auto rounded-xl p-6 border">
         <CardItem
           translateZ="50"
           className="text-2xl font-bold text-neutral-600 dark:text-white"
@@ -55,9 +58,10 @@ export function ThreeDCard({
         <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
-            as={Link}
+            as="a"
             href={link}
-            target="__blank"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-xl text-lg font-normal dark:text-white"
           >
             {price}
@@ -65,9 +69,18 @@ export function ThreeDCard({
           <CardItem
             translateZ={20}
             as="button"
-            className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] p-1 px-2 border-brown-secundary rounded-lg text-slate-300"
+            className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] p-1 px-2 border-brown-secundary rounded-lg text-slate-300 flex items-center gap-1"
           >
-            quiero mi mate 🧉
+            {textbuttom}
+            {textbuttom === "Solicita tu cotización " && (
+              <FaWhatsapp size={24} className="text-green-300" />
+            )}
+            {textbuttom === "Perfecto detalle " && (
+              <FaHeart size={24} className="text-red-400" />
+            )}
+                        {textbuttom === "Regalo familiar" && (
+              <IoGift   size={22} className="text-blue-300" />
+            )}
           </CardItem>
         </div>
       </CardBody>

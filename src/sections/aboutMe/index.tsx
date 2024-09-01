@@ -115,7 +115,7 @@ export default function AboutMe() {
               </div>
               <div className="">
                 <h1 className="text-2xl text-brown-text">
-                  Estamos ubicados en..
+                  Estamos ubicados en:
                 </h1>
                 <p className="text-1xl mb-7 text-brown-text">
                   Colinas del Rey 493. Ciudad de Cosquin, provincia de Cordoba.

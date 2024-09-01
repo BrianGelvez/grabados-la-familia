@@ -136,8 +136,8 @@ export default function Form() {
 
           <button
             type="submit"
-            className="text-center lg:h-36 lg:text-2xl lg:flex justify-center items-center w-full text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
-       border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50 cursor-pointer"
+            className="text-center lg:text-2xl lg:flex justify-center items-center w-full text-slate-200 border-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try
+       border-brown-primary rounded-lg lg:rounded-xl p-1  shadow-lg shadow-yellow-700/50 cursor-pointer"
           >
             ¡Empezar Mi Proyecto!
           </button>
