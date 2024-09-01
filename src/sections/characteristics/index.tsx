@@ -87,6 +87,7 @@ export default function Characteristics() {
               description="¿Tienes un objeto especial que quieres personalizar? Trae tus propios materiales y grábalo como desees."
               imageUrl="/personalizados.webp"
               price=""
+              textbuttom=""
               link="aqui"
             />
           </div>
