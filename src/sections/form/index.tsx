@@ -47,7 +47,6 @@ export default function Form() {
       console.error("Error al enviar el formulario:", error);
       alert("Hubo un error al enviar el formulario.");
     }
-  }
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
