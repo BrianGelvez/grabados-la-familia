@@ -81,14 +81,14 @@ export default function AboutMe() {
               <div className="mt-8 flex flex-col">
                 <div className="flex flex-col">
                   <span className="flex flex-row justify-center items-center gap-2">
-                    <p className="gradient-text text-[13px] lg:text-lg">
+                    <p className="gradient-text text-[15px] py-2 lg:text-lg">
                       Producto más vendido
                     </p>
                     <Image
                       src="/estrellas.webp"
                       alt="Icono de tres estrellas"
-                      width={40}
-                      height={40}
+                      width={80}
+                      height={80}
                     />
                   </span>
                   <a

@@ -20,7 +20,6 @@ export default function Footer() {
         />
       </div>
       <div className="absolute inset-0 opacity-0 z-[-1]"></div>
-      {/* <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#111827] to-transparent z-[-1]"></div> */}
       <div className="w-full flex flex-col justify-center items-center py-3 gap-4 shadow-full backdrop-blur-md">
         <div className="w-full flex flex-col justify-center items-center gap-2">
           <p className="text-lg lg:text-xl text-slate-400">Redes Sociales</p>
