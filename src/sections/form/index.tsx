@@ -38,7 +38,7 @@ export default function Form() {
         });
         Toast.fire({
           icon: "success",
-          title: "Recibimos con exito su mensaje",
+          title: "Recibimos con éxito su mensaje",
         });
       } else {
         alert("Hubo un error al enviar el formulario.");
@@ -47,6 +47,7 @@ export default function Form() {
       console.error("Error al enviar el formulario:", error);
       alert("Hubo un error al enviar el formulario.");
     }
+  }
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -144,5 +145,4 @@ export default function Form() {
       </div>
     </div>
   );
-}
 }
