@@ -8,7 +8,7 @@ export const dataCards = [
     imageUrl: "/mateslogo.webp",
     price: "$6.550",
     link: "https://twitter.com/mannupaaji",
-    textbuttom: "Personaliza el tuyo ahora 🧉"
+    textbuttom: "Pedilo ahora 🧉"
   },
   {
     id: 2,
@@ -17,9 +17,9 @@ export const dataCards = [
     description:
       "Graba recuerdos en grandes cantidades. Ideal para eventos especiales como bodas y aniversarios.",
     imageUrl: "/matespormayor.webp",
-    price: "Consultar precio",
+    price: "Consultar modelos",
     link: "https://twitter.com/mannupaaji",
-    textbuttom: "Solicita tu cotización 📩"
+    textbuttom: "cotización 📩"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const dataCards = [
     imageUrl: "/bombillas.webp",
     price: "Acero inoxidable",
     link: "https://twitter.com/mannupaaji",
-    textbuttom: "Descubre el detalle perfecto ✨"
+    textbuttom: "Detalle perfecto ✨"
   },
   {
     id: 4,
@@ -39,8 +39,8 @@ export const dataCards = [
     description:
       "Regala cuchillos personalizados que cuentan una historia en cada corte. Ideales para quienes aprecian lo exclusivo.",
     imageUrl: "/cuchillos.webp",
-    price: "$6.550",
+    price: "Consultar precio",
     link: "https://twitter.com/mannupaaji",
-    textbuttom: "Elige tu diseño único 🔍"
+    textbuttom: "diseño único ⚔️"
   }
 ];

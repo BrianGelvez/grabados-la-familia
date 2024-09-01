@@ -63,16 +63,16 @@ export default function AboutMe() {
 
               <div className="w-auto flex flex-row justify-center gap-14 md:gap20 lg:gap-36 items-center">
                 <Image
-                  src="/firma.webp"
+                  src="/firma1.webp"
                   alt="Firma de Luis y José"
                   width={100}
                   height={100}
                 />
                 <Image
-                  src="/firma.webp"
+                  src="/firma2.webp"
                   alt="Logo del emprendimiento de grabados láser"
-                  width={100}
-                  height={100}
+                  width={90}
+                  height={90}
                 />
               </div>
             </div>
