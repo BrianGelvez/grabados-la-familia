@@ -27,7 +27,7 @@ export function ThreeDCard({
 }: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-yellow-900/[0.9] bg-black/70 backdrop-blur-md dark:border-white/[0.2] border-black/[0.1] w-76 h-auto rounded-xl p-6 border">
+       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
         <CardItem
           translateZ="50"
           className="text-2xl font-bold text-neutral-600 dark:text-white"
@@ -72,15 +72,6 @@ export function ThreeDCard({
             className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] p-1 px-2 border-brown-secundary rounded-lg text-slate-300 flex items-center gap-1"
           >
             {textbuttom}
-            {textbuttom === "Solicita tu cotización " && (
-              <FaWhatsapp size={24} className="text-green-300" />
-            )}
-            {textbuttom === "Perfecto detalle " && (
-              <FaHeart size={24} className="text-red-400" />
-            )}
-                        {textbuttom === "Regalo familiar" && (
-              <IoGift   size={22} className="text-blue-300" />
-            )}
           </CardItem>
         </div>
       </CardBody>

@@ -7,7 +7,7 @@ import { Facebook, Instagram, Sparkles } from "lucide-react";
 export default function Characteristics() {
   return (
     <div
-      className="relative w-full flex flex-col h-[2200px] min1:h-[1900px] 
+      className="relative w-full flex flex-col h-[2200px] min1:h-[1950px] 
               min2:h-[1800px] min4:h-[1600px] sm:h-[1900px] md:h-[1450px] 
               lg:h-[1600px] xl:h-[1400px]"
     >
